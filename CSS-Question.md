@@ -8,15 +8,11 @@
 
 
 
-3. JavaScript问题
 
-
-
-
-4. 答案
-  1.1 如何实现两栏布局，左栏的高度随右栏的高度变化（如何实现等高两栏布局）？
+2. 答案
+  2.1 如何实现两栏布局，左栏的高度随右栏的高度变化（如何实现等高两栏布局）？
   css样式
-  <style>
+  
     body,div{
       margin:0;
       padding:0;
@@ -25,9 +21,9 @@
       background:#ddd;
       overflow:hidden
     }
-  </style>
+  
 
-  <body>
+  
     <div class="wrap">
       <div class="left">123</div>
       <div class="right">
@@ -41,4 +37,4 @@
         123123123123123123123123123123123123123123123123123123123123123123123123123123123123123
       </div>
     </div>
-  </body>
+  
