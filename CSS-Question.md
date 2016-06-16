@@ -1,5 +1,5 @@
 `前端问题`
-
+___
 1. CSS问题
    1.1 如何实现两栏布局，左栏的高度随右栏的高度变化（如何实现等高两栏布局）？  
    1.2 怎么实现table动态切换  
@@ -20,10 +20,7 @@
       .wrap{  
       background:#ddd;  
       overflow:hidden  
-      }  
-  
-
-  
+      } 
       <div class="wrap">
       <div class="left">123</div>
       <div class="right">
