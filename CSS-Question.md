@@ -14,13 +14,13 @@
   css样式  
 ###
       body,div{
-      margin:0;
-      padding:0;
-      }
-      .wrap{
-      background:#ddd;
-      overflow:hidden
-      }
+      margin:0;  
+      padding:0;  
+      }  
+      .wrap{  
+      background:#ddd;  
+      overflow:hidden  
+      }  
   
 
   
