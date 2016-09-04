@@ -74,10 +74,12 @@ function a(){
 		}
 	</script>
 ```
-A:child,parent,root;
-B:child;
-C:root,root,root;
-D:child,child,child.
+A:child,parent,root;  
+B:child;  
+C:root,root,root;  
+D:child,child,child.  
+
+### 2.9 
 #3、计算机网络
 
 ### 3.1 进程是资源分配的最小单位，线程是CPU调度的最小单位
