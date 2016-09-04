@@ -28,6 +28,56 @@ function a(){
 
 ### 2.6 创建一个js类，模拟实现方法的重载
 
+### 2.7 请根据以下提供的HTML，实现一个图片自动轮图，每3秒切换一张图片，循环播放。（允许使用jQuery）
+```html
+<style>
+  #slider{
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+  }
+  #slider img{
+    width:100%;
+  }
+</style>
+<div id="slider">
+  <ul>
+    <li><img src="http://example.com/pic01.png"/></li>
+    <li><img src="http://example.com/pic02.png"/></li>
+    <li><img src="http://example.com/pic03.png"/></li>
+  </ul>
+</div>
+<script>
+  
+</script>
+```
+### 2.8 以下代码段中，在'This is a child'文本上点击后，输出的结果是（D）
+```html
+<div id="root">
+		<div id="parent">
+			<div id="child">this is a child</div>
+		</div>
+	</div>
+	<script>
+		var childEle = document.getElementById("child");
+		var parentEle = document.getElementById("parent");
+		var rootEle = document.getElementById("root");
+
+		childEle.addEventListener("click",handleEvent,false);
+		parentEle.addEventListener("click",handleEvent,false);
+		rootEle.addEventListener("click",handleEvent,false);
+
+		function handleEvent(e){
+			console.log(e.target.id);
+			return false;
+		}
+	</script>
+```
+A:child,parent,root;
+B:child;
+C:root,root,root;
+D:child,child,child.
 #3、计算机网络
 
 ### 3.1 进程是资源分配的最小单位，线程是CPU调度的最小单位
