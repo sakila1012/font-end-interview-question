@@ -1,13 +1,13 @@
-# 1、JavaScript基础
+## 1、JavaScript基础
 
-## 1.1 闭包的原理？
+### 1.1 闭包的原理？
 ```javascript
 function a(){
   alert(1);
 }
 ```
 
-## 1.2 原型链，继承有哪些
+### 1.2 原型链，继承有哪些
 
 ### 1.3
 ```javascript
