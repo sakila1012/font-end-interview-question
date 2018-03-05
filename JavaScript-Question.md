@@ -1,6 +1,6 @@
 JavaScript 
 
-- [JavaScript 总结](#javascript 总结)
+- [总结](#总结)
   - [$基础](#$基础)
     - [闭包原理](#闭包原理)
     - [原型，原型链，继承有哪些](#原型，原型链，继承有哪些)
@@ -49,7 +49,7 @@ JavaScript
   - [$算法](#$算法)
     - [递归](#[递归])[递归](https://github.com/sakila1012/font-end-interview-question/issues/2)
 
-# JavaScript 总结
+# 总结
 
 ## $基础
 
