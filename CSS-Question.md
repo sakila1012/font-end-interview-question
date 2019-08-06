@@ -38,3 +38,36 @@
 ```
 
 ### 3 请说出5种实现未知高度宽度垂直居中的方法
+
+定位方式
+
+使用flex
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style type="text/css">
+			*{margin: 0;padding:0}
+            #box{
+                display: flex;
+				min-height: 100vh;
+            }
+            .item{
+                width: 50px;
+                height: 40px;
+                border: 1px solid #00C1B3;
+				background: #132356;
+				margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            <div class="item">1</div>
+        </div>
+    </body>
+</html>
+```
